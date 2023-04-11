@@ -7,7 +7,7 @@ I did not have to do this step exactly as I already had VS Code installed on my 
 - ![Image](VS_Code_lab1.png)
 - Follow steps provided by VS Code to complete download
   
-  
+    
 2) Remotely Connecting  
 During the Lab, my CS 15l account was not working and had to use my regular ucsd account
 - Open bash terminal in VS Code
@@ -17,7 +17,7 @@ During the Lab, my CS 15l account was not working and had to use my regular ucsd
 - Should See this when complete: 
 - ![Image](VS_Code_Access_Lab1.png)
   
-  
+     
 3) Trying Commands:
 - Here is the list of provided commands:
 - ![Image](Commands_lab1.png)
