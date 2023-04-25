@@ -12,7 +12,7 @@ I did not have to do this step exactly as I already had VS Code installed on my 
 During the Lab, my CS 15l account was not working and had to use my regular ucsd account
 - Open bash terminal in VS Code  
 ![Image](Git_Bash_lab1.png)
-- Type 'ssh cs15lsp23zz@ieng6.ucsd.edu' in the terminal
+- Type `ssh cs15lsp23zz@ieng6.ucsd.edu` in the terminal
   - "zz" will be different for every account
   - To find your specific CSE 15L account username, visit: [Link](https://sdacs.ucsd.edu/~icc/index.php)
   - Once Username and Student ID are entered, your 'ieng6' account username will be under "Additional Accounts"
