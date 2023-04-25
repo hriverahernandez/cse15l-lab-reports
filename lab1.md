@@ -42,4 +42,6 @@ During the Lab, my CS 15l account was not working and had to use my regular ucsd
   
 - Here are the commands I used and their results:  
 ![Image](Command_Results_lab1.png)
-
+  - `cd ~` and `cd` change my Working Directory to my Home Directory
+  - `ls -a` lists all files in my Home Directory
+  - `ls -lat` sorts all my files in Home Direcotry by time modified, and also shows that `hriverahernandez` and `ieng6_staff` have permission to these files
