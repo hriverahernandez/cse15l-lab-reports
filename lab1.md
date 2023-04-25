@@ -27,8 +27,8 @@ During the Lab, my CS 15l account was not working and had to use my regular ucsd
 - Here is the list of provided commands:  
   - 'cd ~'
     - Changes Current Directory to the Home Directory
-  - 'cd <direcotry>'
-    - Changes Current Directory to the Home Directory
+  - 'cd'
+    - Changes Current Directory to the file provided after typing 'cd'
   - 'ls -lat'
     - 
   - 'ls -a'
