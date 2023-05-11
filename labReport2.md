@@ -2,7 +2,7 @@
 ## Part 1: String Server
 
 1) StringServer.java
-Here is the complete code used for String Server.java (Code was modified from NumberServer.java):
+Here is the complete code used for StringServer.java (Code was modified from NumberServer.java):
 ```
 import java.io.IOException;
 import java.net.URI;
@@ -40,7 +40,7 @@ class StringServer {
 }
 ```
 
-2) Code In Action
+2) Code In Action  
 ![Image](ServerEx1.png)
 - The method called in this screenshot is `add-message`
 - The relevant arguments to the method are `url`, `parameters`, and `str`. Their current values are: 
@@ -50,6 +50,7 @@ class StringServer {
 - `str` changes since "I'm so excited!" and `\n` is concatinated to `str` 
     - `str` is now `I'm so excited!` 
   
+    
 ![Image](ServerEx2.png)
 - The method called in this screenshot is `add-message`
 - The relevant arguments to the method are `url`, `parameters`, and `str`. Their current values are: 
@@ -75,8 +76,8 @@ TOTK releases May 12!
     assertArrayEquals(new int[]{7, 8, 9}, input1);
 	}
 ```
-- The sypmtom is:
-![Image]
+- The sypmtom is:  
+![Image](BugsFail.png)
   
 - The non-failure inducing input is:
 ```
@@ -87,6 +88,27 @@ TOTK releases May 12!
     assertArrayEquals(new int[]{ 3 }, input1);
 	}
 ```
-- The sypmtom is:
-![Image]
+- The sypmtom is:  
+![Image](BugsPass.png)
   
+- The bug before the code change:
+```
+static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }
+```
+- The bug after the code change:
+```
+static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length / 2; i += 1) {
+      int temp = arr[i];
+      arr[i] = arr[arr.length - i - 1];
+      arr[arr.length - i - 1] = temp;
+    }
+  }
+```
+  
+## Part 3: Learning
+Something I've learned in Lab 3 was to create multiple tests for a program, and even ask peers for test ideas. This is important as some tests will pass, but other tests can show obscure errors in the code, and more tests will create a more complete picture of how the program reacts to inputs.
