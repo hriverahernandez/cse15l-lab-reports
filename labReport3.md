@@ -93,7 +93,7 @@ This is useful as the entire line can be unnecessary information and just the li
 - `grep -v` Example 2:
   - `grep -v a journal.pbio.0020001.txt`
   - A snippet of the output was:
-  - ```
+```
         serious problems not only for the scientific community in the developing countries, but for
 
         2002).
@@ -105,6 +105,7 @@ This is useful as the entire line can be unnecessary information and just the li
         world.
         
         built.
+```
   - The command is checking for lines that don't contain the letter "a" and prints out all lines that meet that criteria. 
 A useful way to use this is to exclude certain character(s) and note the effect it has when it's missing.
   
@@ -139,8 +140,9 @@ This is useful as many small words existing in larger words, and `grep` by itsel
 - `grep -w` Example 2:
   - `grep -w right journal.pbio.0020001.txt`
   - The output was:
-  - ```
+```
         development, demonstrates that many developing countries are heading in the right
+```
   - The command is checking for lines that contain the word "right" and prints out all lines that meet that criteria. 
 A way to use this would be in a dictionary as many of the small words are in the larger words, and `-w` can help you find the exact word you need.
   
