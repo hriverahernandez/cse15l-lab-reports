@@ -18,7 +18,7 @@ This is useful as the entire line can be unnecessary information and just the li
 - `grep -v` Example 1:
   - `grep -v result journal.pbio.0020001.txt`
   - A snippet of the output was:
-  - ```
+```
                 
             North America and Europe clearly dominate the number of scientific
             publications produced annually.
@@ -87,6 +87,7 @@ This is useful as the entire line can be unnecessary information and just the li
         United States (1.5) and even Canada (3.3) (RICYT 2002). Other countries, such as Costa
         Rica, Cuba, Brazil, and Chile, have invested a much greater proportion of their GDP in
         research and development than the other countries of this region (Albornoz 2001).
+```
 
   - The command is checking for lines that don't contain "result" and prints out all lines that meet that criteria. This is useful if there is a word that you don't want included in the final results of the program.
 - `grep -v` Example 2:
@@ -110,7 +111,7 @@ A useful way to use this is to exclude certain character(s) and note the effect 
 - `grep -w` Example 1:
   - `grep -w are journal.pbio.0020001.txt`
   - The output was:
-  - ```
+```
         It is rather obvious that richer countries are able to invest more resources in science
         demonstrate that such developing regions as Latin America are making substantial
         which are mutually exclusive. It is possible that publishing in international journals as a
@@ -132,6 +133,7 @@ A useful way to use this is to exclude certain character(s) and note the effect 
         community, there are also reasons to be optimistic. The relative increase in the number of
         development, demonstrates that many developing countries are heading in the right
         to travel, we feel optimistic that the bridges mentioned by Mr. Annan are slowly being
+```
   - The command is checking for lines that contain the word "are" and prints out all lines that meet that criteria. 
 This is useful as many small words existing in larger words, and `grep` by itself cannot distinguish between them.
 - `grep -w` Example 2:
@@ -145,7 +147,7 @@ A way to use this would be in a dictionary as many of the small words are in the
 - `grep -i` Example 1:
   - `grep -i SCIENCE journal.pbio.0020001.txt`
   - The output was:
-  - ```
+```
         the clear inequalities in science between developing and developed countries and to the
         importance of reducing the inequalities in science between developed and developing
         88% of all scientific and technical publications registered by the Science Citation Index
@@ -167,12 +169,13 @@ A way to use this would be in a dictionary as many of the small words are in the
         developing world (Goldemberg 1998; Annan 2003). One is that science, as a discipline, would
         Brazil (Goldemberg 1998) and biomedical sciences in Cuba (Castro Díaz-Balart 2002). These
         to the sciences will be an excellent investment by developing nations in terms of
+```
   - The command is checking for lines that contain the word "SCIENCE", ignoring the case, and prints out all lines that meet that criteria. 
     This is useful because many words in the internet contain a mix of upper and lower case.
 - `grep -i` Example 2:
   - `grep -i BeTwEeN journal.pbio.0020001.txt`
   - The output was:
-  - ```
+```
         the clear inequalities in science between developing and developed countries and to the
         importance of reducing the inequalities in science between developed and developing
         output between the developing and already developed countries (Gibbs 1995; May 1997;
@@ -181,5 +184,6 @@ A way to use this would be in a dictionary as many of the small words are in the
         publications between the developed world and the developing world from 1990 until 2000,
         and global change biology) between 1990 and 2002 in both the two top general science
         possibility is that the main research agendas between both regions are somewhat different
+```
   - The command is checking for lines that contain the word "BeTwEeN", ignoring the case, and prints out all lines that meet that criteria. 
     A useful application for this would be forums where people communicate as many people use interchanging cases to change the tone of a word.
