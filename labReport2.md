@@ -41,3 +41,4 @@ class StringServer {
 ```
 
 2) Code In Action
+![Image]
