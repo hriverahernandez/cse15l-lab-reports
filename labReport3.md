@@ -19,25 +19,7 @@ This is useful as the entire line can be unnecessary information and just the li
   - `grep -v result journal.pbio.0020001.txt`
   - A snippet of the output was:
   - ```
-                Kofi Annan, the Secretary-General of the United Nations, recently called attention to
-            the clear inequalities in science between developing and developed countries and to the
-            challenges of building bridges across these gaps that should bring the United Nations and
-            the world scientific community closer to each other (Annan 2003). Mr. Annan stressed the
-            importance of reducing the inequalities in science between developed and developing
-            countries, asserting that “This unbalanced distribution of scientific activity generates
-            serious problems not only for the scientific community in the developing countries, but for
-            development itself.” Indeed, Mr. Annan's sentiments have also been echoed recently by
-            several scientists, who present overwhelming evidence for the disparity in scientific
-            output between the developing and already developed countries (Gibbs 1995; May 1997;
-            Goldemberg 1998; Riddoch 2000). For example, recent United Nations Educational, Scientific,
-            and Cultural Organization (UNESCO) estimates (UNESCO 2001) indicate that, in 1997, the
-            developed countries accounted for some 84% of the global investment in scientific research
-            and development, had approximately 72% of the world researchers, and produced approximately
-            88% of all scientific and technical publications registered by the Science Citation Index
-            (SCI). North America and Europe clearly dominate the number of scientific publications
-            produced annually, with 36.6% and 37.5%, respectively, worldwide (UNESCO 2001).
-
-
+                
             North America and Europe clearly dominate the number of scientific
             publications produced annually.
 
