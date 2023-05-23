@@ -31,5 +31,5 @@
 ![Image](lab7_git_commit.png)
     - Typed `git commit -a` and pressed `<enter>` to write a commit message
     - Pressed `<down arrow>` 10 times to reach a new line to add my message
-    - Pressed `i` to enter insert mode and typed ` Modified LastExamples.java and fixed the bug.`
+    - Pressed `i` to enter insert mode and typed `Modified LastExamples.java and fixed the bug.`
     - Pressed `<esc>` to enter normal mode and typed `:wq` to save and quit
